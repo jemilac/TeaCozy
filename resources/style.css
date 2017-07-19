@@ -42,9 +42,10 @@ body {
 .body-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 0px 30px;
   padding-top: auto;
-
 }
 
 #mission {
@@ -64,4 +65,36 @@ body {
 h2, h4 {
   margin: 10px auto;
 }
+
+#tea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+  padding-top: 50px;
+}
+
+.image-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.image-block img {
+  width: 300px;
+  height: 200px;
+}
+
+.block-4 {
+  padding-left: 175px;
+  padding-top: 10px;
+}
+
+.block-5 {
+  padding-right: 175px;
+  padding-top: 10px;
+}
+
 /*footer section*/
