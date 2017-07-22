@@ -87,14 +87,62 @@ h2, h4 {
   height: 200px;
 }
 
-.block-4 {
+#block-4 {
   padding-left: 175px;
   padding-top: 10px;
 }
 
-.block-5 {
+#block-5 {
   padding-right: 175px;
   padding-top: 10px;
 }
 
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/img-locations-background.jpg);
+  height: 500px;
+  margin-top: 50px;
+}
+
+#locations .text-block {
+  background-color: transparent;
+}
+
+.location-block {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  padding-top: 15px;
+  opacity: 1;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+}
 /*footer section*/
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 20px;
+}
+
+#copyright {
+  padding-left: 20px;
+  text-align: left;
+  width: 100%;
+
+}
